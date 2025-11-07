@@ -1,4 +1,4 @@
-# repack by blue. #
+# repack by xall. #
 
 """ Userbot module for System Stats commands """
 
@@ -175,7 +175,7 @@ async def bot_ver(event):
         )
 
 
-@ayiin_cmd(pattern="(?:alive|yinson)\\s?(.)?")
+@ayiin_cmd(pattern="(?:alive|rose)\\s?(.)?")
 async def amireallyalive(alive):
     adB = AyiinDB()
     user = await alive.client.get_me()
@@ -183,7 +183,7 @@ async def amireallyalive(alive):
     await alive.edit("⚡️")
     await asyncio.sleep(3)
     output = (
-        f"**here is [𝗦𝗺𝘂𝗱𝗱𝗹𝗲-𝗨𝘀𝗲𝗿𝗯𝗼𝘁](t.me/smuddle)**\n\n"
+        f"**here is [𝗥𝗼𝘀𝗲𝗽𝗮𝘄-𝗨𝘀𝗲𝗿𝗯𝗼𝘁](t.me/rosepaw)**\n\n"
         f"**{alive_text}**\n\n"
         f"━━━━━━━━━━━━━━\n"
         f"** - Bᴀsᴇ Oɴ :** ••{adB.name}••\n"
@@ -194,7 +194,7 @@ async def amireallyalive(alive):
         f"** - PʏTɢCᴀʟʟs Vᴇʀsɪᴏɴ :** `{pytgcallss}` \n"
         f"** - Tᴇʟᴇᴛʜᴏɴ Vᴇʀsɪᴏɴ :** `{version.__version__}` \n"
         f"** - Pʏ-xall ᴠᴇʀsɪᴏɴ :** `{py_ver}`\n"
-        f"** - smuddle ᴠᴇʀsɪᴏɴ :** `{ayiin_version}` [{HOSTED_ON}]\n"
+        f"** - rosepaw ᴠᴇʀsɪᴏɴ :** `{ayiin_version}` [{HOSTED_ON}]\n"
         f"** - Bᴏᴛ Uᴘᴛɪᴍᴇ :** `{uptime}`\n"
         "━━━━━━━━━━━━━━━\n\n"
     )
