@@ -54,7 +54,7 @@ async def autopilot():
     try:
         r = await bot(
             CreateChannelRequest(
-                title="𝗦𝗺𝘂𝗱𝗱𝗹𝗲 Logs",
+                title="𝗥𝗼𝘀𝗲𝗽𝗮𝘄 Logs",
                 about="Please don't leave this group, and never delete the bots in this group.",
                 megagroup=True,
             ),
@@ -73,7 +73,7 @@ async def autopilot():
     channel = get_peer_id(chat)
     if isinstance(chat.photo, ChatPhotoEmpty):
         photo = await download_file(
-            "https://graph.org/file/003ead3d38ce27f7e24ab-417d5db990060068d3.jpg", "photoyins.jpg"
+            "https://graph.org/file/cfd5ef2f6fff1b20d5a83-eef19b7cffc549bca3.jpg", "photoyins.jpg"
         )
         ll = await bot.upload_file(photo)
         try:
@@ -102,7 +102,7 @@ async def autobot():
     if who.username:
         username = f"{who.username}_bot"
     else:
-        username = f"smuddle{(str(who.id))[5:]}bot"
+        username = f"rosepaw{(str(who.id))[5:]}bot"
     bf = "@BotFather"
     await bot(UnblockRequest(bf))
     await bot.send_message(bf, "/cancel")
@@ -131,8 +131,8 @@ async def autobot():
             sys.exit(1)
     filogo = random.choice(
           [
-              "https://graph.org/file/003ead3d38ce27f7e24ab-417d5db990060068d3.jpg", 
-              "https://graph.org/file/003ead3d38ce27f7e24ab-417d5db990060068d3.jpg"
+              "https://graph.org/file/cfd5ef2f6fff1b20d5a83-eef19b7cffc549bca3.jpg", 
+              "https://graph.org/file/cfd5ef2f6fff1b20d5a83-eef19b7cffc549bca3.jpg"
           ]
     )
     await bot.send_message(bf, username)
@@ -141,7 +141,7 @@ async def autobot():
     await bot.send_read_acknowledge("botfather")
     if isdone.startswith("Sorry,"):
         ran = randint(1, 100)
-        username = f"smuddle{str(who.id)[6:]}{ran}bot"
+        username = f"rosepaw{str(who.id)[6:]}{ran}bot"
         await bot.send_message(bf, username)
         await asyncio.sleep(1)
         nowdone = (await bot.get_messages(bf, limit=1))[0].text
