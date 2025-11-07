@@ -1,6 +1,6 @@
-<h1 align="center"> ⚡ 𝗶𝗫𝗮𝗹𝗹-𝗨𝘀𝗲𝗿𝗯𝗼𝘁</h1>
+<h1 align="center"> ⚡ 𝗥𝗼𝘀𝗲𝗽𝗮𝘄-𝗨𝘀𝗲𝗿𝗯𝗼𝘁</h1>
 
-<a href="https://github.com/xallmean/iXall-Userbot/commits"> <img src="https://img.shields.io/github/last-commit/sip-Userbot/Nande-Telethon?color=red&logo=github&logoColor=blue&style=for-the-badge" /></a>
+<a href="https://github.com/rosepaw7/Rosepaw-Userbot/commits"> <img src="https://img.shields.io/github/last-commit/sip-Userbot/Nande-Telethon?color=red&logo=github&logoColor=blue&style=for-the-badge" /></a>
 [![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.png?v=103)](https://github.com/xallmean/iXall-Userbot)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-Yes-blue)](https://github.com/xallmean/iXall-Userbot/graphs/commit-activity)
 [![CodeQuality](https://img.shields.io/codacy/grade/a723cb464d5a4d25be3152b5d71de82d?color=blue&logo=codacy)](https://app.codacy.com/gh/ionmusic/Kazu-Userbot/dashboard)
@@ -12,7 +12,7 @@
   <img src="https://graph.org/file/2aefa880dac16530b31ca-9d35801d8d0ce8dd56.jpg">
 </p>
 
-🔥 𝗶𝗫𝗮𝗹𝗹-𝗨𝘀𝗲𝗿𝗯𝗼𝘁 adalah userbot Telegram modular yang berjalan di Python3 dengan database sqlalchemy.
+🔥 𝗥𝗼𝘀𝗲𝗽𝗮𝘄-𝗨𝘀𝗲𝗿𝗯𝗼𝘁 adalah userbot Telegram modular yang berjalan di Python3 dengan database sqlalchemy.
 
 Berbasis [Paperplane](https://github.com/RaphielGang/Telegram-UserBot) dan [ProjectBish](https://github.com/adekmaulana/ProjectBish) userbot.
 Saya membuat repository ini untuk memilih dan menambahkan beberapa modul yang saya butuhkan dengan banyak perubahan, fitur dan modul.
