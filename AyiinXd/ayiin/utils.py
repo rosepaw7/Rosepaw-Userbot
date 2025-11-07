@@ -180,7 +180,7 @@ async def autobot():
                 f"BERHASIL MEMBUAT ASSISTANT BOT KAMU DENGAN USERNAME @{username}")
             await bot.send_message(
                 BOTLOG_CHATID,
-                "**Userbot is being restarted, if there are any problems contact @bul4nx!**",
+                "**Userbot is being restarted, if there are any problems contact @ceentwil!**",
             )
             heroku_var["BOT_TOKEN"] = token
             heroku_var["BOT_USERNAME"] = f"@{username}"
@@ -224,7 +224,7 @@ async def autobot():
             f"BERHASIL MEMBUAT ASSISTANT BOT KAMU DENGAN USERNAME @{username}")
         await bot.send_message(
             BOTLOG_CHATID,
-            "**Userbot is being restarted, if there are any problems contact @bul4nx **",
+            "**Userbot is being restarted, if there are any problems contact @ceentwil **",
         )
         heroku_var["BOT_TOKEN"] = token
         heroku_var["BOT_USERNAME"] = f"@{username}"
