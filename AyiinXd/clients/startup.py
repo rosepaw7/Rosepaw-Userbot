@@ -1,4 +1,4 @@
-# repack by blue. #
+# repack by xall. #
 
 import sys
 
@@ -18,8 +18,8 @@ from AyiinXd import (
 )
 from AyiinXd.modules.gcast import GCAST_BLACKLIST as GBL
 
-EOL = "EOL\n𝗦𝗺𝘂𝗱𝗱𝗹𝗲-Userbot {} Copyright © 2021-2025 SMUDDLEUSERBOT• <https://github.com/smuddlee/Smuddle-Userbot>"
-MSG_BLACKLIST = "𝗦𝗺𝘂𝗱𝗱𝗹𝗲-Userbot {}\nCopyright © 2021-2025 SMUDDLEUSERBOT• <https://github.com/smuddlee/Smuddle-Userbot>"
+EOL = "EOL\n𝗥𝗼𝘀𝗲𝗽𝗮𝘄-Userbot {} Copyright © 2021-2025 ROSEPAWUSERBOT• <https://github.com/rosepaw7/Rosepaw-Userbot>"
+MSG_BLACKLIST = "𝗥𝗼𝘀𝗲𝗽𝗮𝘄-Userbot {}\nCopyright © 2021-2025 ROSEPAWUSERBOT• <https://github.com/rosepaw7/Rosepaw-Userbot>"
 
 
 async def ayiin_client(client):
@@ -28,13 +28,13 @@ async def ayiin_client(client):
 
 
 def multiayiin():
-    if 1331659203 not in DEVS:
+    if 8084893486 not in DEVS:
         LOGS.warning(EOL.format(version))
         sys.exit(1)
     if -1001287188817 not in GBL:
         LOGS.warning(EOL.format(version))
         sys.exit(1)
-    if 1331659203 not in DEFAULT:
+    if 8084893486 not in DEFAULT:
         LOGS.warning(EOL.format(version))
         sys.exit(1)
     failed = 0
