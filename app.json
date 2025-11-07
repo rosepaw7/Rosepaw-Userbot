@@ -1,9 +1,9 @@
 {
-  "name": "𝗦𝗺𝘂𝗱𝗱𝗹𝗲-Userbot",
-  "description": "-𝗕𝗬 @bul4nx on telegram-",
+  "name": "𝗥𝗼𝘀𝗲𝗽𝗮𝘄-Userbot",
+  "description": "-𝗕𝗬 @ceentwil on telegram-",
   "logo": "https://graph.org/file/003ead3d38ce27f7e24ab-417d5db990060068d3.jpg",
   "keywords": ["telegram", "userbot", "Smuddle-Userbot", "modular", "python"],
-  "repository": "https://github.com/smuddlee/Smuddle-Userbot",
+  "repository": "https://github.com/rosepaw7/Rosepaw-Userbot",
   "stack": "container",
   "env": {
     "API_KEY": {
