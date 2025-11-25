@@ -157,7 +157,15 @@ async def autobot():
             await asyncio.sleep(1)
             await bot.send_message(bf, f"@{username}")
             await asyncio.sleep(1)
-            await bot.send_file(bf, filogo)
+            try:
+                photopath = await download_file(filogo, "autobot_pic.jpg")
+                if photopath:
+                    await bot.send_file(bf, photopath)
+                else:
+                    await bot.send_message(bf, "No pic available.")
+            except Exception as e:
+                LOGS.error(f"Gagal upload foto: {e}")
+                await bot.send_message(bf, "Gagal upload foto bot.")
             await asyncio.sleep(3)
             await bot.send_message(bf, "/setabouttext")
             await asyncio.sleep(1)
@@ -201,7 +209,15 @@ async def autobot():
         await asyncio.sleep(1)
         await bot.send_message(bf, f"@{username}")
         await asyncio.sleep(1)
-        await bot.send_file(bf, filogo)
+        try:
+            photopath = await download_file(filogo, "autobot_pic.jpg")
+            if photopath:
+                await bot.send_file(bf, photopath)
+            else:
+                await bot.send_message(bf, "No pic available.")
+        except Exception as e:
+            LOGS.error(f"Gagal upload foto: {e}")
+            await bot.send_message(bf, "Gagal upload foto bot.")
         await asyncio.sleep(3)
         await bot.send_message(bf, "/setabouttext")
         await asyncio.sleep(1)
